@@ -1,0 +1,10 @@
+package aiidziis.clanmanager.model;
+
+/**
+ * Created by aigars.cibulskis on 8/31/2016.
+ * Class that contains constants.
+ */
+public class Constants {
+    public static final String BASE_URL = "https://api.clashofclans.com/";
+    public static final String API_TOKEN = "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiIsImtpZCI6IjI4YTMxOGY3LTAwMDAtYTFlYi03ZmExLTJjNzQzM2M2Y2NhNSJ9.eyJpc3MiOiJzdXBlcmNlbGwiLCJhdWQiOiJzdXBlcmNlbGw6Z2FtZWFwaSIsImp0aSI6IjdjOTY0N2QyLTFkYjItNDY2Yi1iOTZlLWEzZmIyYzQwMzBhYyIsImlhdCI6MTQ3MzM2MTYxNCwic3ViIjoiZGV2ZWxvcGVyL2QyODZiNjVkLWI2MWEtNjlhMi1mN2EwLTY5YjNiMTMwMDcxYiIsInNjb3BlcyI6WyJjbGFzaCJdLCJsaW1pdHMiOlt7InRpZXIiOiJkZXZlbG9wZXIvc2lsdmVyIiwidHlwZSI6InRocm90dGxpbmcifSx7ImNpZHJzIjpbIjg1LjI1NC43Ny4xOTEiXSwidHlwZSI6ImNsaWVudCJ9XX0.tRDQ4aXyTMUZTV8fHAECr4SBML7QkGrRvVy1FDixwa1jzMDDooBU3CXQQ8e2CWk13heTodB3jeht4eP-2R4Qnw";
+}
