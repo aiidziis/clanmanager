@@ -1,0 +1,7 @@
+#Tue Nov 15 16:07:51 EET 2016
+base.0=C\:\\ClanManager\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_3dc599642b935ae227ea5502ed98b3890ffb0156
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\ClanManager\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_f845476227014c5c4307df110c28e1d80414b6d7\\classes.dex
+base.1=C\:\\ClanManager\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_f845476227014c5c4307df110c28e1d80414b6d7
+file.0=C\:\\ClanManager\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_3dc599642b935ae227ea5502ed98b3890ffb0156\\classes.dex
