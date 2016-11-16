@@ -1,24 +1,8 @@
 <resources>
     <string name="app_name">Clan Manager</string>
 
-    <string-array name="navigation_names">
-        <item>Clans</item>
-        <item>Players</item>
-        <item>Leagues</item>
-    </string-array>
-
-    <string name="action_settings">Settings</string>
-
-    <string name="drawer_open">Open navigation drawer</string>
-    <string name="drawer_close">Close navigation drawer</string>
-    <string name="clans">Clans</string>
-    <string name="players">Players</string>
-    <string name="leagues">Leagues</string>
-    <string name="nav_sub_header">Stats</string>
-    <string name="nav_wins">Wins</string>
-    <string name="nav_loss">Loss</string>
-    <string name="war_log_versus">VS</string>
-    <string name="clan_search_clan_tag_hint">Please insert your clan name or tag.</string>
-    <string name="home_favorite_clans">Favorite Clans</string>
-    <string name="home_top_clans">Top Clans</string>
+    <string name="fragment_home_top_100">TOP 100</string>
+    <string name="fragment_home_favorite">Favorite</string>
+    <string name="fragment_home_recommended">Recommended</string>
+    <string name="fragment_home_top_clans">Top Clans</string>
 </resources>

@@ -9,6 +9,4 @@ import nucleus.view.NucleusSupportFragment;
  * Created by aigars.cibulskis on 11/15/2016.
  */
 @RequiresPresenter(HomePresenter.class)
-public class HomeFragment extends NucleusSupportFragment<HomePresenter> {
-
-}
+public class HomeFragment extends NucleusSupportFragment<HomePresenter> {}

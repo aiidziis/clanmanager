@@ -3,9 +3,13 @@
     <!-- Base application theme. -->
     <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
-        <item name="colorPrimary">@color/colorPrimary</item>
-        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
-        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="HomeButtonStyle">
+        <item name="android:background">@drawable/lblue_rounded_button_selector</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:layout_marginBottom">@dimen/fragment_home_button_margin</item>
+        <item name="android:layout_marginTop">@dimen/fragment_home_button_margin</item>
     </style>
 
 </resources>
