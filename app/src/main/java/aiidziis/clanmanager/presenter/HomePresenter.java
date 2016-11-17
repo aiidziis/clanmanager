@@ -8,4 +8,7 @@ import nucleus.presenter.RxPresenter;
  * Created by aigars.cibulskis on 11/15/2016.
  */
 
-public class HomePresenter extends RxPresenter<HomeFragment> {}
+public class HomePresenter extends RxPresenter<HomeFragment> {
+    private static final String TAG = HomePresenter.class.getCanonicalName();
+
+}

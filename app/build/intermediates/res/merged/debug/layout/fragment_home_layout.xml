@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            style="@style/HomeButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="@dimen/fragment_home_button_margin"
+            android:layout_weight="1"
+            android:text="@string/fragment_home_top_100" />
+
+        <Button
+            style="@style/HomeButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/fragment_home_button_margin"
+            android:layout_marginRight="@dimen/fragment_home_button_margin"
+            android:layout_weight="1.8"
+            android:text="@string/fragment_home_recommended" />
+
+        <Button
+            style="@style/HomeButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1.4"
+            android:text="@string/fragment_home_favorite" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="10dp"
+        android:background="?android:attr/dividerVertical" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/fragment_home_button_margin"
+        android:text="@string/fragment_home_top_clans"
+        android:textColor="@color/light_blue_700"
+        android:textSize="@dimen/fragment_home_text_size" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="?android:attr/dividerVertical" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/top_clans_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/fragment_home_button_margin" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="?android:attr/dividerVertical" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/fragment_home_button_margin"
+        android:text="@string/fragment_home_favorite"
+        android:textColor="@color/light_blue_700"
+        android:textSize="@dimen/fragment_home_text_size" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="?android:attr/dividerVertical" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/favorite_clans_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

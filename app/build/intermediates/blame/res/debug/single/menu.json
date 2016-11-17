@@ -1,9 +1,5 @@
 [
     {
-        "merged": "C:\\ClanManager\\app\\build\\intermediates\\res\\merged\\debug\\menu\\drawer_view.xml",
-        "source": "C:\\ClanManager\\app\\src\\main\\res\\menu\\drawer_view.xml"
-    },
-    {
         "merged": "C:\\ClanManager\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu.xml",
         "source": "C:\\ClanManager\\app\\src\\main\\res\\menu\\menu.xml"
     }
